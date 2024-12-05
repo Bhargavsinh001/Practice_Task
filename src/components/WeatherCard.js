@@ -59,6 +59,9 @@ const WeatherCard = ({ data, addFavorite, removeFavorite, favorites }) => {
     if (condition === 'clear') return 'sunny';
     if (condition === 'rain') return 'rainy';
     if (condition === 'clouds') return 'cloudy';
+    if (condition === 'haze') return 'haze';
+    if (condition === 'mist') return 'mist';
+    if (condition === 'smoke') return 'smoke';
     return '';
   };
 
